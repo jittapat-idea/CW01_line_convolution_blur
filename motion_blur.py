@@ -1,10 +1,10 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('pic/black.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('pic/Gonzo.jpeg', cv2.IMREAD_GRAYSCALE)
 
 size = 15
-angle = 90  # องศาของเส้นตรงที่ต้องการให้เกิด Motion Blur
+angle = 45  # องศาของเส้นตรงที่ต้องการให้เกิด Motion Blur
 
 # สร้างภาพขาวดำที่เป็นเส้นตรงที่กำหนดองศา
 line_image = np.zeros((size, size), dtype=np.uint8)
